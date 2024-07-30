@@ -1,0 +1,27 @@
+Linear Search:
+Linear search is a simple search algorithm that checks each element in the list one by one until the desired element is found or the list ends.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+
+Binary Search:
+Binary search is a more efficient algorithm that only works on sorted lists. It repeatedly divides the search interval in half. If the value of the search key is less than the item in the middle of the interval, narrow the interval to the lower half. Otherwise, narrow it to the upper half. Repeat until the value is found or the interval is empty.
+
+Time Complexity: O(log n)
+Space Complexity: O(1)
+
+
+2. Setup: Create a Book Class
+Let's define a Book class with attributes bookId, title, and author.
+
+3. Implementation
+We'll implement both linear and binary search methods.
+
+Analysis
+Linear Search: Time complexity is O(n). It's simple and effective for small or unsorted datasets.
+Binary Search: Time complexity is O(log n). It's efficient for large datasets but requires the list to be sorted.
+When to use each algorithm:
+
+Linear Search: Use when the dataset is small or unsorted.
+Binary Search: Use when the dataset is large and sorted, as it significantly reduces the number of comparisons needed.
