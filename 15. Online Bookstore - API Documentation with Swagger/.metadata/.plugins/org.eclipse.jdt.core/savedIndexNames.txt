@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+C:\Users\chakr\Downloads\Week_5_Exercises\15. Online Bookstore - API Documentation with Swagger\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+214927750.index
